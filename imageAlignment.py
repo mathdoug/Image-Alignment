@@ -59,8 +59,8 @@ def alignImages(imgRef, img):
 if __name__ == "__main__":
     # Reading the images
     imColor = cv2.IMREAD_COLOR
-    refImagePath = "form2.jpg"
-    photoPath = "photo2.jpg"
+    refImagePath = "images/form2.jpg"
+    photoPath = "images/photo2.jpg"
     photo = cv2.imread(photoPath, imColor)
     refImage = cv2.imread(refImagePath, imColor)
 
